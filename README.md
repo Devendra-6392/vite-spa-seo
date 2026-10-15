@@ -3,7 +3,7 @@
 [![npm version](https://img.shields.io/npm/v/vite-spa-seo.svg)](https://www.npmjs.com/package/vite-spa-seo)
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
 [![Dependencies](https://img.shields.io/badge/dependencies-0-brightgreen.svg)](https://www.npmjs.com/package/vite-spa-seo)
-[![RAM Usage](https://img.shields.io/badge/RAM%20overhead-0%20MB-success.svg)](https://github.com/ideacraft/vite-spa-seo)
+[![RAM Usage](https://img.shields.io/badge/RAM%20overhead-0%20MB-success.svg)](https://github.com/Devendra-6392/vite-spa-seo)
 
 > **The Zero-Overhead, Zero-Dependency Server-Side SEO & Schema.org Injector for Vite SPAs (React, Vue, Svelte) on Express.**
 
@@ -209,4 +209,4 @@ npm run example
 
 ## 📄 License
 
-MIT © [Ideacraft](https://github.com/ideacraft)
+MIT © [Devendra](https://github.com/Devendra-6392)

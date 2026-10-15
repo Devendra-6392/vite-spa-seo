@@ -29,16 +29,16 @@
     "opengraph",
     "rich-snippets"
   ],
-  "author": "Ideacraft Team",
+  "author": "Devendra",
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/ideacraft/vite-spa-seo.git"
+    "url": "git+https://github.com/Devendra-6392/vite-spa-seo.git"
   },
   "bugs": {
-    "url": "https://github.com/ideacraft/vite-spa-seo/issues"
+    "url": "https://github.com/Devendra-6392/vite-spa-seo/issues"
   },
-  "homepage": "https://github.com/ideacraft/vite-spa-seo#readme",
+  "homepage": "https://github.com/Devendra-6392/vite-spa-seo#readme",
   "engines": {
     "node": ">=16.0.0"
   }
