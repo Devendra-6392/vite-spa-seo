@@ -1,6 +1,6 @@
 {
   "name": "vite-spa-seo",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Ultra-lightweight Server-Side SEO, Social Meta & Schema.org JSON-LD Injector for Vite SPAs (React, Vue, Svelte) on Express. Zero Chromium, 0 MB extra RAM.",
   "main": "lib/index.js",
   "types": "lib/index.d.ts",
