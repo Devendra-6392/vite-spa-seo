@@ -1,0 +1,45 @@
+{
+  "name": "vite-spa-seo",
+  "version": "1.0.0",
+  "description": "Ultra-lightweight Server-Side SEO, Social Meta & Schema.org JSON-LD Injector for Vite SPAs (React, Vue, Svelte) on Express. Zero Chromium, 0 MB extra RAM.",
+  "main": "lib/index.js",
+  "types": "lib/index.d.ts",
+  "files": [
+    "lib",
+    "README.md",
+    "LICENSE"
+  ],
+  "scripts": {
+    "test": "node test/test.js",
+    "example": "node example/server.js"
+  },
+  "keywords": [
+    "vite",
+    "spa",
+    "seo",
+    "schema",
+    "googlebot",
+    "crawler",
+    "json-ld",
+    "ssr",
+    "express",
+    "react",
+    "vue",
+    "meta-tags",
+    "opengraph",
+    "rich-snippets"
+  ],
+  "author": "Ideacraft Team",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ideacraft/vite-spa-seo.git"
+  },
+  "bugs": {
+    "url": "https://github.com/ideacraft/vite-spa-seo/issues"
+  },
+  "homepage": "https://github.com/ideacraft/vite-spa-seo#readme",
+  "engines": {
+    "node": ">=16.0.0"
+  }
+}
