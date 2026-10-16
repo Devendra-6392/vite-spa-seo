@@ -45,7 +45,10 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/Devendra-6392/vite-spa-seo"
+    "url": "git+https://github.com/Devendra-6392/vite-spa-seo.git"
+  },
+  "publishConfig": {
+    "access": "public"
   },
   "bugs": {
     "url": "https://github.com/Devendra-6392/vite-spa-seo/issues"
