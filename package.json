@@ -1,14 +1,26 @@
 {
   "name": "vite-spa-seo",
-  "version": "1.1.0",
-  "description": "Ultra-lightweight Server-Side SEO, Social Meta & Schema.org JSON-LD Injector for Vite SPAs (React, Vue, Svelte) on Express. Zero Chromium, 0 MB extra RAM.",
+  "version": "1.0.0",
+  "description": "Ultra-lightweight Build-Time Prerendering & Runtime SEO Meta Injector for Vite SPAs (React, Vue, Svelte). Zero-config Puppeteer snapshots + zero-overhead Express middleware.",
   "main": "lib/index.js",
+  "bin": {
+    "vite-spa-seo": "bin/cli.js"
+  },
   "types": "lib/index.d.ts",
   "files": [
     "lib",
+    "bin",
     "README.md",
     "LICENSE"
   ],
+  "peerDependencies": {
+    "puppeteer": ">=20.0.0"
+  },
+  "peerDependenciesMeta": {
+    "puppeteer": {
+      "optional": true
+    }
+  },
   "scripts": {
     "test": "node test/test.js",
     "example": "node example/server.js"
@@ -33,7 +45,7 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Devendra-6392/vite-spa-seo.git"
+    "url": "https://github.com/Devendra-6392/vite-spa-seo"
   },
   "bugs": {
     "url": "https://github.com/Devendra-6392/vite-spa-seo/issues"

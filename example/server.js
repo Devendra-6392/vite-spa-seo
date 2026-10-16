@@ -1,3 +1,5 @@
+// example/server.js
+// Example showing how to use vite-spa-seo with Express
 
 const express = require('express');
 const path = require('path');
@@ -98,7 +100,7 @@ app.use(
 
 if (require.main === module) {
   app.listen(PORT, () => {
-    console.log(` vite-spa-seo example server running at http://localhost:${PORT}`);
+    console.log(`🚀 vite-spa-seo example server running at http://localhost:${PORT}`);
   });
 }
 

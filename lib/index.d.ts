@@ -82,3 +82,23 @@ export function matchRoute(compiled: { regex: RegExp; paramNames: string[] }, pa
 export function escapeHtml(str: string): string;
 export function stripHtml(html: string): string;
 export function buildBreadcrumbsSchema(breadcrumbs: BreadcrumbItem[], siteUrl?: string): Record<string, any> | null;
+
+export interface PrerenderOptions {
+  distDir?: string;
+  routes?: string[] | (() => Promise<string[]> | string[]);
+  readySelector?: string;
+  outDir?: string;
+  port?: number;
+  concurrency?: number;
+  timeout?: number;
+  settleTime?: number;
+  saveAsNested?: boolean;
+}
+
+export function prerender(options: PrerenderOptions): Promise<{
+  success: boolean;
+  count: number;
+  failed: number;
+  manifest: Record<string, any>;
+}>;
+
